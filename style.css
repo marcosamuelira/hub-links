@@ -1,8 +1,8 @@
 /*CSS Reset*/
 * {
 
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -24,4 +24,61 @@
 
 body {
     font-family: "Open Sans", "sans-sarif";
+    background-color: var(--CinzaClaro);
+
+
+}
+
+/* Cabeçalho */
+header img {
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    border-radius: 50%;
+}
+
+/*Principal*/
+
+main {
+    text-align: center;
+}
+
+main h1 {
+    margin: 10px 0px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #000;
+
+}
+
+main p {
+    max-width: 230px;
+    margin-bottom: 20px;
+    color: #000;
+    font-weight: 500;
+
+}
+
+/* LINKS */
+.container>a {
+    text-decoration: none;
+    background-color: #000;
+    color: rgb(255, 255, 255);
+    width: 320px;
+    height: 60px;
+    margin-bottom: 15px;
+    text-align: center;
+    padding-top: 18px;
+    border-radius: 10px;
+
+}
+
+/* Rodapé */
+footer{
+    margin-top: 20px;
+}
+
+footer img {
+    margin: 0px 5px;
+
 }
